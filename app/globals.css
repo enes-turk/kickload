@@ -1,0 +1,14 @@
+@tailwind utilities;
+@tailwind base;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply uppercase;
+  }
+}
