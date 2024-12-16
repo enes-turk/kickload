@@ -9,6 +9,6 @@
 
 @layer utilities {
   .heading {
-    @apply uppercase;
+    @apply uppercase font-bold;
   }
 }
