@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "EcoCharge",
+    "date-posted": "2024-01-01",
+    "tag": "GreenEnergy",
+    "pitch": "A platform offering easy at-home renewable energy solutions."
+  },
+  {
+    "id": 2,
+    "name": "MindfulMeals",
+    "date-posted": "2024-01-02",
+    "tag": "FoodTech",
+    "pitch": "Personalized meal kits focusing on nutrition and mental wellness."
+  },
+  {
+    "id": 3,
+    "name": "HyperLOCAL",
+    "date-posted": "2024-01-03",
+    "tag": "Logistics",
+    "pitch": "An on-demand delivery network that prioritizes local businesses and communities."
+  },
+  {
+    "id": 4,
+    "name": "iTutorBox",
+    "date-posted": "2024-01-04",
+    "tag": "EdTech",
+    "pitch": "An AI-driven tutoring platform matching students with qualified tutors worldwide."
+  },
+  {
+    "id": 5,
+    "name": "BetterRent",
+    "date-posted": "2024-01-05",
+    "tag": "PropTech",
+    "pitch": "A rental marketplace offering flexible contracts and transparent tenant-landlord relationships."
+  },
+  {
+    "id": 6,
+    "name": "Gigify",
+    "date-posted": "2024-01-06",
+    "tag": "GigEconomy",
+    "pitch": "Connects freelancers with local short-term opportunities through a location-based app."
+  },
+  {
+    "id": 7,
+    "name": "CryptoKiosk",
+    "date-posted": "2024-01-07",
+    "tag": "FinTech",
+    "pitch": "Secure, user-friendly crypto ATMs that bring digital assets closer to mainstream consumers."
+  },
+  {
+    "id": 8,
+    "name": "FitFriends",
+    "date-posted": "2024-01-08",
+    "tag": "Health",
+    "pitch": "A social fitness platform that pairs users with exercise buddies for motivation and accountability."
+  },
+  {
+    "id": 9,
+    "name": "SmartPark",
+    "date-posted": "2024-01-09",
+    "tag": "UrbanTech",
+    "pitch": "An intelligent parking solution that guides drivers to available spots in real time."
+  },
+  {
+    "id": 10,
+    "name": "WasteNot",
+    "date-posted": "2024-01-10",
+    "tag": "Sustainability",
+    "pitch": "Connects grocery stores and restaurants with nonprofits to reduce food waste in local communities."
+  }
+]
