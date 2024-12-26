@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind utilities;
+@tailwind components;
 @tailwind base;
 
 @layer base {
@@ -29,9 +30,15 @@
     @apply w-full bg-primary min-h-[530px] pattern flex justify-center items-center flex-col py-10 px-6;
   }
   .card_grid {
-    @apply grid md:grid-cols-3 sm:grid-cols-2 gap-5;
+    @apply grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5;
   }
   .card_grid-sm {
     @apply grid sm:grid-cols-2 gap-5;
+  }
+  .post-card {
+    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-200 hover:border-primary transition-all duration-500 hover:shadow-300 hover:bg-primary-100;
+  }
+  .center {
+    @apply flex justify-center items-center;
   }
 }

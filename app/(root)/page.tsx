@@ -1,3 +1,4 @@
+import PostCard from "@/components/PostCard";
 import ideas from "@/public/data_1.json";
 
 export default function Home() {
@@ -12,17 +13,10 @@ export default function Home() {
           Submit Ideas, Vote on Pitches and Get Noticed in Virtual Competitions
         </p>
       </section>
-      <section className="section_container">
-        <ul className="mt-7 card_grid">
+      <section className="section_container mx-9 my-9">
+        <ul className="card_grid">
           {ideas.map((idea) => (
-            <div key={idea.id} className="p-4 bg-white shadow rounded">
-              <h2 className="text-lg font-bold">{idea.name}</h2>
-              <p className="italic text-sm text-gray-600">Tag: {idea.tag}</p>
-              <p className="my-2">{idea.pitch}</p>
-              <small className="text-gray-500">
-                Posted on: {idea["date-posted"]}
-              </small>
-            </div>
+            <PostCard key={idea.id} idea={idea} />
           ))}
         </ul>
       </section>
