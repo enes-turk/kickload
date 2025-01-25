@@ -3,7 +3,7 @@ import Image from "next/image";
 import ex_img from "@/public/ex_img.jpg";
 
 interface Idea {
-  id: number;
+  id: string;
   name: string;
   tag: string;
   pitch: string;
@@ -27,7 +27,7 @@ export default function PostCard({ idea }: { idea: Idea }) {
       </div>
       <div>
         <div key={id}>
-          <Link href={`/posts/${id}`}>
+          <Link href={`/projects/${id}`}>
             <h2 className="text-lg font-bold hover:text-blue-600 transition">
               {name}
             </h2>
