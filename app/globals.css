@@ -41,4 +41,8 @@
   .center {
     @apply flex justify-center items-center;
   }
+
+  .project-page {
+    @apply bg-white py-10 px-6;
+  }
 }
